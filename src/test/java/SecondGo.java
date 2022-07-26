@@ -113,5 +113,12 @@ public class SecondGo {
         }
     }
 
-
+    @Test
+    public void testWhileLoop() {
+        int i = 0;
+        while (i < 10) {
+            i++;
+            System.out.println("While ON");
+        }
+    }
 }

@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe3cd98a-8626-456d-a22e-646d1e355eae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SecondGo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/newOne.java" afterDir="false" />
+    <list default="true" id="fe3cd98a-8626-456d-a22e-646d1e355eae" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FAQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Ggl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/geckodriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondGo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondGo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +30,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/SecondGo.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -41,15 +47,32 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/infot/IdeaProjects/ASK"
+    "last_opened_file_path": "C:/Users/infot/IdeaProjects/JW2/src/test/resources",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SecondGo.arrMthd">
-    <configuration name="SecondGo.Ampercent" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\infot\IdeaProjects\JW2\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Ggl.testName4">
+    <configuration name="Ggl" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JW2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SecondGo" />
-      <option name="METHOD_NAME" value="Ampercent" />
+      <option name="MAIN_CLASS_NAME" value="Ggl" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ggl.testName0" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JW2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ggl" />
+      <option name="METHOD_NAME" value="testName0" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -57,11 +80,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondGo.arrMthd" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Ggl.testName2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JW2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SecondGo" />
-      <option name="METHOD_NAME" value="arrMthd" />
+      <option name="MAIN_CLASS_NAME" value="Ggl" />
+      <option name="METHOD_NAME" value="testName2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -69,11 +92,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondGo.arrMthdEnhancedForLoop" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Ggl.testName3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JW2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SecondGo" />
-      <option name="METHOD_NAME" value="arrMthdEnhancedForLoop" />
+      <option name="MAIN_CLASS_NAME" value="Ggl" />
+      <option name="METHOD_NAME" value="testName3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,23 +104,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondGo.bln" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Ggl.testName4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JW2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SecondGo" />
-      <option name="METHOD_NAME" value="bln" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SecondGo.concatWithMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JW2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SecondGo" />
-      <option name="METHOD_NAME" value="concatWithMethod" />
+      <option name="MAIN_CLASS_NAME" value="Ggl" />
+      <option name="METHOD_NAME" value="testName4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SecondGo.arrMthd" />
-        <item itemvalue="TestNG.SecondGo.arrMthdEnhancedForLoop" />
-        <item itemvalue="TestNG.SecondGo.Ampercent" />
-        <item itemvalue="TestNG.SecondGo.bln" />
-        <item itemvalue="TestNG.SecondGo.concatWithMethod" />
+        <item itemvalue="TestNG.Ggl.testName4" />
+        <item itemvalue="TestNG.Ggl.testName0" />
+        <item itemvalue="TestNG.Ggl.testName3" />
+        <item itemvalue="TestNG.Ggl" />
+        <item itemvalue="TestNG.Ggl.testName2" />
       </list>
     </recent_temporary>
   </component>
@@ -124,6 +135,14 @@
       <option name="presentableId" value="Default" />
       <updated>1658700090105</updated>
     </task>
+    <task id="LOCAL-00001" summary="done">
+      <created>1658722662962</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658722662962</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,5 +155,38 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/FAQ.java</url>
+          <line>19</line>
+          <properties class="FAQ" method="testPrintEvenNumbers2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Ggl.java</url>
+          <line>27</line>
+          <properties class="Ggl" method="testName2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Ggl.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

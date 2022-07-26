@@ -21,11 +21,14 @@
         <artifactId>testng</artifactId>
         <version>7.6.1</version>
         <scope>test</scope>
-
-
-
     </dependency>
 
+    //sets brosers up https://www.selenium.dev/documentation/webdriver/getting_started/install_library/
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.0.0</version>
+    </dependency>
 
 </dependencies>
 
